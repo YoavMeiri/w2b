@@ -22,4 +22,4 @@ in the correlation to neural activity compared to the baseline. Our results high
 predicting brain activity using language model embeddings and the limitations of incorporating cognitive tactics into the input to enhance predictive accuracy.
 
 
-![baseline](https://user-images.githubusercontent.com/81311717/231746124-084ae71d-b818-407a-a335-46eea15a119b.png | width=100)
+![](https://user-images.githubusercontent.com/81311717/231746124-084ae71d-b818-407a-a335-46eea15a119b.png | width=100)
