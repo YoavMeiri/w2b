@@ -1,6 +1,6 @@
 # w2b - Predicting Neural Activity with Language Models: Incorporating Listening Comprehension Strategies
 
-The objective of this project is to explore the viability of employing the GPT-2 transformer-based
+This work aims to explore the viability of employing the GPT-2 transformer-based
 language model as a cognitive model for language processing in the human brain. In case it falls short
 of being a suitable cognitive model, we aim to identify potential approaches to bridge the gap. To
 achieve this aim, functional magnetic resonance imaging (fMRI) scans will be utilized to measure neural
