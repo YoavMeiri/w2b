@@ -21,5 +21,7 @@ Our findings revealed that both methods partially preserved the correlations obs
 in the correlation to neural activity compared to the baseline. Our results highlight the challenges of
 predicting brain activity using language model embeddings and the limitations of incorporating cognitive tactics into the input to enhance predictive accuracy.
 
+<p align="center">
+	<img src="https://user-images.githubusercontent.com/81311717/231746124-084ae71d-b818-407a-a335-46eea15a119b.png" width="450">
+</p>
 
-![](https://user-images.githubusercontent.com/81311717/231746124-084ae71d-b818-407a-a335-46eea15a119b.png =250x250)
