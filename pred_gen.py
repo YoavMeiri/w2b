@@ -45,7 +45,7 @@ def embedding_ws_pred_cont(words,ws, HF_model="gpt2", device='cpu',printi=False,
 
 def main():
     # create_words_activations_dict(save_to_pkl=True)
-    with open('words_activations_dict.pkl', 'rb') as f:
+    with open('/home/meiri.yoav/w2b/embeddings_and_activations/words_activations_dict.pkl', 'rb') as f:
         words_activations_dict = pickle.load(f)
     
     words = words_activations_dict['words']
@@ -91,7 +91,7 @@ def main():
     plot_stat_map(corrs_total_brain, threshold=0.25)
     
     # plot stat map - pred_cont sub by baseline
-    with open('X_ws.pkl', 'rb') as f:
+    with open('/home/meiri.yoav/w2b/embeddings_and_activations/X_ws.pkl', 'rb') as f:
         X_ws = pickle.load(f)
     corrs_ws = ridge_n_plot(X_ws, y)[1]
     

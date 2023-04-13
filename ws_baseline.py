@@ -63,7 +63,7 @@ def compare_ws(wss, words, y, non_zero_activity_indices, transcript, non_zero_ac
 
 def main():
     # create_words_activations_dict(save_to_pkl=True)
-    with open('words_activations_dict.pkl', 'rb') as f:
+    with open('/home/meiri.yoav/w2b/embeddings_and_activations/words_activations_dict.pkl', 'rb') as f:
         words_activations_dict = pickle.load(f)
     
     words = words_activations_dict['words']

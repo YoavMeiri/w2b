@@ -40,7 +40,7 @@ def main():
         X_ws = pickle.load(f)
         
     
-    with open('words_activations_dict.pkl', 'rb') as f:
+    with open('/home/meiri.yoav/w2b/embeddings_and_activations/words_activations_dict.pkl', 'rb') as f:
         words_activations_dict = pickle.load(f)
     
     y = words_activations_dict['y']

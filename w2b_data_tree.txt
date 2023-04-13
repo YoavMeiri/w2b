@@ -1,0 +1,1882 @@
+.
+├── afni-nonsmooth
+│   ├── sub-001
+│   │   └── func
+│   │       ├── sub-001_task-pieman_run-1_desc-fwhm_smoothness.tsv
+│   │       ├── sub-001_task-pieman_run-1_desc-model_regressors.1D
+│   │       ├── sub-001_task-pieman_run-1_desc-model_regressors.csv
+│   │       ├── sub-001_task-pieman_run-1_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-001_task-pieman_run-1_space-fsaverage6_hemi-L_desc-tsnr.func.gii
+│   │       ├── sub-001_task-pieman_run-1_space-fsaverage6_hemi-L_roi-EAC_desc-clean_timeseries.1D
+│   │       ├── sub-001_task-pieman_run-1_space-fsaverage6_hemi-L_roi-EAC_desc-mean_timeseries.1D
+│   │       ├── sub-001_task-pieman_run-1_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-001_task-pieman_run-1_space-fsaverage6_hemi-R_desc-tsnr.func.gii
+│   │       ├── sub-001_task-pieman_run-1_space-fsaverage6_hemi-R_roi-EAC_desc-clean_timeseries.1D
+│   │       ├── sub-001_task-pieman_run-1_space-fsaverage6_hemi-R_roi-EAC_desc-mean_timeseries.1D
+│   │       ├── sub-001_task-pieman_run-1_space-MNI152NLin2009cAsym_res-native_desc-clean_bold.nii.gz
+│   │       ├── sub-001_task-pieman_run-2_desc-fwhm_smoothness.tsv
+│   │       ├── sub-001_task-pieman_run-2_desc-model_regressors.1D
+│   │       ├── sub-001_task-pieman_run-2_desc-model_regressors.csv
+│   │       ├── sub-001_task-pieman_run-2_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-001_task-pieman_run-2_space-fsaverage6_hemi-L_desc-tsnr.func.gii
+│   │       ├── sub-001_task-pieman_run-2_space-fsaverage6_hemi-L_roi-EAC_desc-clean_timeseries.1D
+│   │       ├── sub-001_task-pieman_run-2_space-fsaverage6_hemi-L_roi-EAC_desc-mean_timeseries.1D
+│   │       ├── sub-001_task-pieman_run-2_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-001_task-pieman_run-2_space-fsaverage6_hemi-R_desc-tsnr.func.gii
+│   │       ├── sub-001_task-pieman_run-2_space-fsaverage6_hemi-R_roi-EAC_desc-clean_timeseries.1D
+│   │       ├── sub-001_task-pieman_run-2_space-fsaverage6_hemi-R_roi-EAC_desc-mean_timeseries.1D
+│   │       ├── sub-001_task-pieman_run-2_space-MNI152NLin2009cAsym_res-native_desc-clean_bold.nii.gz
+│   │       ├── sub-001_task-tunnel_desc-fwhm_smoothness.tsv
+│   │       ├── sub-001_task-tunnel_desc-model_regressors.1D
+│   │       ├── sub-001_task-tunnel_desc-model_regressors.csv
+│   │       ├── sub-001_task-tunnel_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-001_task-tunnel_space-fsaverage6_hemi-L_desc-tsnr.func.gii
+│   │       ├── sub-001_task-tunnel_space-fsaverage6_hemi-L_roi-EAC_desc-clean_timeseries.1D
+│   │       ├── sub-001_task-tunnel_space-fsaverage6_hemi-L_roi-EAC_desc-mean_timeseries.1D
+│   │       ├── sub-001_task-tunnel_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-001_task-tunnel_space-fsaverage6_hemi-R_desc-tsnr.func.gii
+│   │       ├── sub-001_task-tunnel_space-fsaverage6_hemi-R_roi-EAC_desc-clean_timeseries.1D
+│   │       ├── sub-001_task-tunnel_space-fsaverage6_hemi-R_roi-EAC_desc-mean_timeseries.1D
+│   │       └── sub-001_task-tunnel_space-MNI152NLin2009cAsym_res-native_desc-clean_bold.nii.gz
+│   ├── sub-002
+│   │   └── func
+│   │       ├── sub-002_task-pieman_run-1_desc-fwhm_smoothness.tsv
+│   │       ├── sub-002_task-pieman_run-1_desc-model_regressors.1D
+│   │       ├── sub-002_task-pieman_run-1_desc-model_regressors.csv
+│   │       ├── sub-002_task-pieman_run-1_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-002_task-pieman_run-1_space-fsaverage6_hemi-L_desc-tsnr.func.gii
+│   │       ├── sub-002_task-pieman_run-1_space-fsaverage6_hemi-L_roi-EAC_desc-clean_timeseries.1D
+│   │       ├── sub-002_task-pieman_run-1_space-fsaverage6_hemi-L_roi-EAC_desc-mean_timeseries.1D
+│   │       ├── sub-002_task-pieman_run-1_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-002_task-pieman_run-1_space-fsaverage6_hemi-R_desc-tsnr.func.gii
+│   │       ├── sub-002_task-pieman_run-1_space-fsaverage6_hemi-R_roi-EAC_desc-clean_timeseries.1D
+│   │       ├── sub-002_task-pieman_run-1_space-fsaverage6_hemi-R_roi-EAC_desc-mean_timeseries.1D
+│   │       ├── sub-002_task-pieman_run-1_space-MNI152NLin2009cAsym_res-native_desc-clean_bold.nii.gz
+│   │       ├── sub-002_task-pieman_run-2_desc-fwhm_smoothness.tsv
+│   │       ├── sub-002_task-pieman_run-2_desc-model_regressors.1D
+│   │       ├── sub-002_task-pieman_run-2_desc-model_regressors.csv
+│   │       ├── sub-002_task-pieman_run-2_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-002_task-pieman_run-2_space-fsaverage6_hemi-L_desc-tsnr.func.gii
+│   │       ├── sub-002_task-pieman_run-2_space-fsaverage6_hemi-L_roi-EAC_desc-clean_timeseries.1D
+│   │       ├── sub-002_task-pieman_run-2_space-fsaverage6_hemi-L_roi-EAC_desc-mean_timeseries.1D
+│   │       ├── sub-002_task-pieman_run-2_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-002_task-pieman_run-2_space-fsaverage6_hemi-R_desc-tsnr.func.gii
+│   │       ├── sub-002_task-pieman_run-2_space-fsaverage6_hemi-R_roi-EAC_desc-clean_timeseries.1D
+│   │       ├── sub-002_task-pieman_run-2_space-fsaverage6_hemi-R_roi-EAC_desc-mean_timeseries.1D
+│   │       └── sub-002_task-pieman_run-2_space-MNI152NLin2009cAsym_res-native_desc-clean_bold.nii.gz
+│   ├── sub-003
+│   │   └── func
+│   │       ├── sub-003_task-pieman_run-1_desc-fwhm_smoothness.tsv
+│   │       ├── sub-003_task-pieman_run-1_desc-model_regressors.1D
+│   │       ├── sub-003_task-pieman_run-1_desc-model_regressors.csv
+│   │       ├── sub-003_task-pieman_run-1_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-003_task-pieman_run-1_space-fsaverage6_hemi-L_desc-tsnr.func.gii
+│   │       ├── sub-003_task-pieman_run-1_space-fsaverage6_hemi-L_roi-EAC_desc-clean_timeseries.1D
+│   │       ├── sub-003_task-pieman_run-1_space-fsaverage6_hemi-L_roi-EAC_desc-mean_timeseries.1D
+│   │       ├── sub-003_task-pieman_run-1_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-003_task-pieman_run-1_space-fsaverage6_hemi-R_desc-tsnr.func.gii
+│   │       ├── sub-003_task-pieman_run-1_space-fsaverage6_hemi-R_roi-EAC_desc-clean_timeseries.1D
+│   │       ├── sub-003_task-pieman_run-1_space-fsaverage6_hemi-R_roi-EAC_desc-mean_timeseries.1D
+│   │       ├── sub-003_task-pieman_run-1_space-MNI152NLin2009cAsym_res-native_desc-clean_bold.nii.gz
+│   │       ├── sub-003_task-pieman_run-2_desc-fwhm_smoothness.tsv
+│   │       ├── sub-003_task-pieman_run-2_desc-model_regressors.1D
+│   │       ├── sub-003_task-pieman_run-2_desc-model_regressors.csv
+│   │       ├── sub-003_task-pieman_run-2_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-003_task-pieman_run-2_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       └── sub-003_task-pieman_run-2_space-MNI152NLin2009cAsym_res-native_desc-clean_bold.nii.gz
+│   ├── sub-004
+│   │   └── func
+│   │       ├── sub-004_task-pieman_run-1_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-004_task-pieman_run-1_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-004_task-pieman_run-2_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-004_task-pieman_run-2_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-004_task-tunnel_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-004_task-tunnel_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-005
+│   │   └── func
+│   │       ├── sub-005_task-pieman_run-1_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-005_task-pieman_run-1_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-005_task-pieman_run-2_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-005_task-pieman_run-2_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-005_task-tunnel_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-005_task-tunnel_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-006
+│   │   └── func
+│   │       ├── sub-006_task-pieman_run-1_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-006_task-pieman_run-1_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-006_task-pieman_run-2_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-006_task-pieman_run-2_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-007
+│   │   └── func
+│   │       ├── sub-007_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-007_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-008
+│   │   └── func
+│   │       ├── sub-008_task-pieman_run-1_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-008_task-pieman_run-1_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-008_task-pieman_run-2_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-008_task-pieman_run-2_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-009
+│   │   └── func
+│   │       ├── sub-009_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-009_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-010
+│   │   └── func
+│   │       ├── sub-010_task-pieman_run-1_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-010_task-pieman_run-1_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-010_task-pieman_run-2_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-010_task-pieman_run-2_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-011
+│   │   └── func
+│   │       ├── sub-011_task-pieman_run-1_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-011_task-pieman_run-1_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-011_task-pieman_run-2_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-011_task-pieman_run-2_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-012
+│   │   └── func
+│   │       ├── sub-012_task-pieman_run-1_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-012_task-pieman_run-1_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-012_task-pieman_run-2_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-012_task-pieman_run-2_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-013
+│   │   └── func
+│   │       ├── sub-013_task-pieman_run-1_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-013_task-pieman_run-1_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-013_task-pieman_run-2_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-013_task-pieman_run-2_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-013_task-tunnel_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-013_task-tunnel_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-014
+│   │   └── func
+│   │       ├── sub-014_task-pieman_run-1_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-014_task-pieman_run-1_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-014_task-pieman_run-2_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-014_task-pieman_run-2_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-015
+│   │   └── func
+│   │       ├── sub-015_task-pieman_run-1_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-015_task-pieman_run-1_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-015_task-pieman_run-2_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-015_task-pieman_run-2_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-016
+│   │   └── func
+│   │       ├── sub-016_task-pieman_run-1_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-016_task-pieman_run-1_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-016_task-pieman_run-2_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-016_task-pieman_run-2_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-017
+│   │   └── func
+│   │       ├── sub-017_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-017_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-018
+│   │   └── func
+│   │       ├── sub-018_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-018_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-019
+│   │   └── func
+│   │       ├── sub-019_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-019_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-020
+│   │   └── func
+│   │       ├── sub-020_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-020_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-021
+│   │   └── func
+│   │       ├── sub-021_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-021_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-022
+│   │   └── func
+│   │       ├── sub-022_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-022_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-022_task-tunnel_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-022_task-tunnel_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-023
+│   │   └── func
+│   │       ├── sub-023_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-023_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-024
+│   │   └── func
+│   │       ├── sub-024_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-024_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-025
+│   │   └── func
+│   │       ├── sub-025_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-025_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-025_task-tunnel_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-025_task-tunnel_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-026
+│   │   └── func
+│   │       ├── sub-026_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-026_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-026_task-tunnel_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-026_task-tunnel_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-027
+│   │   └── func
+│   │       ├── sub-027_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-027_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-028
+│   │   └── func
+│   │       ├── sub-028_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-028_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-029
+│   │   └── func
+│   │       ├── sub-029_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-029_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-030
+│   │   └── func
+│   │       ├── sub-030_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-030_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-031
+│   │   └── func
+│   │       ├── sub-031_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-031_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-032
+│   │   └── func
+│   │       ├── sub-032_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-032_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-033
+│   │   └── func
+│   │       ├── sub-033_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-033_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-034
+│   │   └── func
+│   │       ├── sub-034_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-034_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-035
+│   │   └── func
+│   │       ├── sub-035_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-035_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-036
+│   │   └── func
+│   │       ├── sub-036_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-036_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-037
+│   │   └── func
+│   │       ├── sub-037_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-037_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-038
+│   │   └── func
+│   │       ├── sub-038_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-038_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-039
+│   │   └── func
+│   │       ├── sub-039_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-039_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-040
+│   │   └── func
+│   │       ├── sub-040_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-040_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-041
+│   │   └── func
+│   │       ├── sub-041_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-041_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-041_task-tunnel_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-041_task-tunnel_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-042
+│   │   └── func
+│   │       ├── sub-042_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-042_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-043
+│   │   └── func
+│   │       ├── sub-043_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-043_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-044
+│   │   └── func
+│   │       ├── sub-044_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-044_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-045
+│   │   └── func
+│   │       ├── sub-045_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-045_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-046
+│   │   └── func
+│   │       ├── sub-046_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-046_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-047
+│   │   └── func
+│   │       ├── sub-047_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-047_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-048
+│   │   └── func
+│   │       ├── sub-048_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-048_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-049
+│   │   └── func
+│   │       ├── sub-049_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-049_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-050
+│   │   └── func
+│   │       ├── sub-050_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-050_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-051
+│   │   └── func
+│   │       ├── sub-051_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-051_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-052
+│   │   └── func
+│   │       ├── sub-052_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-052_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-052_task-tunnel_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-052_task-tunnel_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-053
+│   │   └── func
+│   │       ├── sub-053_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-053_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-053_task-tunnel_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-053_task-tunnel_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-054
+│   │   └── func
+│   │       ├── sub-054_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-054_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-055
+│   │   └── func
+│   │       ├── sub-055_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-055_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-055_task-tunnel_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-055_task-tunnel_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-056
+│   │   └── func
+│   │       ├── sub-056_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-056_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-056_task-tunnel_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-056_task-tunnel_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-057
+│   │   └── func
+│   │       ├── sub-057_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-057_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-057_task-tunnel_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-057_task-tunnel_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-058
+│   │   └── func
+│   │       ├── sub-058_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-058_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-058_task-tunnel_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-058_task-tunnel_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-059
+│   │   └── func
+│   │       ├── sub-059_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-059_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-059_task-tunnel_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-059_task-tunnel_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-060
+│   │   └── func
+│   │       ├── sub-060_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-060_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-060_task-tunnel_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-060_task-tunnel_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-061
+│   │   └── func
+│   │       ├── sub-061_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-061_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-061_task-tunnel_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-061_task-tunnel_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-062
+│   │   └── func
+│   │       ├── sub-062_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-062_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-062_task-tunnel_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-062_task-tunnel_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-063
+│   │   └── func
+│   │       ├── sub-063_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-063_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-063_task-tunnel_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-063_task-tunnel_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-064
+│   │   └── func
+│   │       ├── sub-064_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-064_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-064_task-tunnel_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-064_task-tunnel_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-065
+│   │   └── func
+│   │       ├── sub-065_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-065_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-065_task-tunnel_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-065_task-tunnel_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-066
+│   │   └── func
+│   │       ├── sub-066_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-066_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-066_task-tunnel_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-066_task-tunnel_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-067
+│   │   └── func
+│   │       ├── sub-067_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-067_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-068
+│   │   └── func
+│   │       ├── sub-068_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-068_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-069
+│   │   └── func
+│   │       ├── sub-069_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       ├── sub-069_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   │       ├── sub-069_task-tunnel_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-069_task-tunnel_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-070
+│   │   └── func
+│   │       ├── sub-070_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-070_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-071
+│   │   └── func
+│   │       ├── sub-071_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-071_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-072
+│   │   └── func
+│   │       ├── sub-072_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-072_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-073
+│   │   └── func
+│   │       ├── sub-073_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-073_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-074
+│   │   └── func
+│   │       ├── sub-074_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-074_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-075
+│   │   └── func
+│   │       ├── sub-075_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-075_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-076
+│   │   └── func
+│   │       ├── sub-076_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-076_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-077
+│   │   └── func
+│   │       ├── sub-077_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-077_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-078
+│   │   └── func
+│   │       ├── sub-078_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-078_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-079
+│   │   └── func
+│   │       ├── sub-079_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-079_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-080
+│   │   └── func
+│   │       ├── sub-080_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-080_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-081
+│   │   └── func
+│   │       ├── sub-081_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-081_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-082
+│   │   └── func
+│   │       ├── sub-082_task-pieman_space-fsaverage6_hemi-L_desc-clean.func.gii
+│   │       └── sub-082_task-pieman_space-fsaverage6_hemi-R_desc-clean.func.gii
+│   ├── sub-083
+│   │   └── func
+│   ├── sub-084
+│   │   └── func
+│   ├── sub-085
+│   │   └── func
+│   ├── sub-086
+│   │   └── func
+│   ├── sub-087
+│   │   └── func
+│   ├── sub-088
+│   │   └── func
+│   ├── sub-089
+│   │   └── func
+│   ├── sub-090
+│   │   └── func
+│   ├── sub-091
+│   │   └── func
+│   ├── sub-092
+│   │   └── func
+│   ├── sub-093
+│   │   └── func
+│   ├── sub-094
+│   │   └── func
+│   ├── sub-095
+│   │   └── func
+│   ├── sub-096
+│   │   └── func
+│   ├── sub-097
+│   │   └── func
+│   ├── sub-098
+│   │   └── func
+│   ├── sub-099
+│   │   └── func
+│   ├── sub-100
+│   │   └── func
+│   ├── sub-101
+│   │   └── func
+│   ├── sub-102
+│   │   └── func
+│   ├── sub-103
+│   │   └── func
+│   ├── sub-104
+│   │   └── func
+│   ├── sub-105
+│   │   └── func
+│   ├── sub-106
+│   │   └── func
+│   ├── sub-107
+│   │   └── func
+│   ├── sub-108
+│   │   └── func
+│   ├── sub-109
+│   │   └── func
+│   ├── sub-110
+│   │   └── func
+│   ├── sub-111
+│   │   └── func
+│   ├── sub-112
+│   │   └── func
+│   ├── sub-113
+│   │   └── func
+│   ├── sub-114
+│   │   └── func
+│   ├── sub-115
+│   │   └── func
+│   ├── sub-116
+│   │   └── func
+│   ├── sub-117
+│   │   └── func
+│   ├── sub-118
+│   │   └── func
+│   ├── sub-119
+│   │   └── func
+│   ├── sub-120
+│   │   └── func
+│   ├── sub-121
+│   │   └── func
+│   ├── sub-122
+│   │   └── func
+│   ├── sub-123
+│   │   └── func
+│   ├── sub-124
+│   │   └── func
+│   ├── sub-125
+│   │   └── func
+│   ├── sub-126
+│   │   └── func
+│   ├── sub-127
+│   │   └── func
+│   ├── sub-128
+│   │   └── func
+│   ├── sub-129
+│   │   └── func
+│   ├── sub-130
+│   │   └── func
+│   ├── sub-131
+│   │   └── func
+│   ├── sub-132
+│   │   └── func
+│   ├── sub-133
+│   │   └── func
+│   ├── sub-134
+│   │   └── func
+│   ├── sub-135
+│   │   └── func
+│   ├── sub-136
+│   │   └── func
+│   ├── sub-137
+│   │   └── func
+│   ├── sub-138
+│   │   └── func
+│   ├── sub-139
+│   │   └── func
+│   ├── sub-140
+│   │   └── func
+│   ├── sub-141
+│   │   └── func
+│   ├── sub-142
+│   │   └── func
+│   ├── sub-143
+│   │   └── func
+│   ├── sub-144
+│   │   └── func
+│   ├── sub-145
+│   │   └── func
+│   ├── sub-146
+│   │   └── func
+│   ├── sub-147
+│   │   └── func
+│   ├── sub-148
+│   │   └── func
+│   ├── sub-149
+│   │   └── func
+│   ├── sub-150
+│   │   └── func
+│   ├── sub-151
+│   │   └── func
+│   ├── sub-152
+│   │   └── func
+│   ├── sub-153
+│   │   └── func
+│   ├── sub-154
+│   │   └── func
+│   ├── sub-155
+│   │   └── func
+│   ├── sub-156
+│   │   └── func
+│   ├── sub-157
+│   │   └── func
+│   ├── sub-158
+│   │   └── func
+│   ├── sub-159
+│   │   └── func
+│   ├── sub-160
+│   │   └── func
+│   ├── sub-161
+│   │   └── func
+│   ├── sub-162
+│   │   └── func
+│   ├── sub-163
+│   │   └── func
+│   ├── sub-164
+│   │   └── func
+│   ├── sub-165
+│   │   └── func
+│   ├── sub-166
+│   │   └── func
+│   ├── sub-167
+│   │   └── func
+│   ├── sub-168
+│   │   └── func
+│   ├── sub-169
+│   │   └── func
+│   ├── sub-170
+│   │   └── func
+│   ├── sub-171
+│   │   └── func
+│   ├── sub-172
+│   │   └── func
+│   ├── sub-173
+│   │   └── func
+│   ├── sub-174
+│   │   └── func
+│   ├── sub-175
+│   │   └── func
+│   ├── sub-176
+│   │   └── func
+│   ├── sub-177
+│   │   └── func
+│   ├── sub-178
+│   │   └── func
+│   ├── sub-179
+│   │   └── func
+│   ├── sub-180
+│   │   └── func
+│   ├── sub-181
+│   │   └── func
+│   ├── sub-182
+│   │   └── func
+│   ├── sub-183
+│   │   └── func
+│   ├── sub-184
+│   │   └── func
+│   ├── sub-185
+│   │   └── func
+│   ├── sub-186
+│   │   └── func
+│   ├── sub-187
+│   │   └── func
+│   ├── sub-188
+│   │   └── func
+│   ├── sub-189
+│   │   └── func
+│   ├── sub-190
+│   │   └── func
+│   ├── sub-191
+│   │   └── func
+│   ├── sub-192
+│   │   └── func
+│   ├── sub-193
+│   │   └── func
+│   ├── sub-194
+│   │   └── func
+│   ├── sub-195
+│   │   └── func
+│   ├── sub-196
+│   │   └── func
+│   ├── sub-197
+│   │   └── func
+│   ├── sub-198
+│   │   └── func
+│   ├── sub-199
+│   │   └── func
+│   ├── sub-200
+│   │   └── func
+│   ├── sub-201
+│   │   └── func
+│   ├── sub-202
+│   │   └── func
+│   ├── sub-203
+│   │   └── func
+│   ├── sub-204
+│   │   └── func
+│   ├── sub-205
+│   │   └── func
+│   ├── sub-206
+│   │   └── func
+│   ├── sub-207
+│   │   └── func
+│   ├── sub-208
+│   │   └── func
+│   ├── sub-209
+│   │   └── func
+│   ├── sub-210
+│   │   └── func
+│   ├── sub-211
+│   │   └── func
+│   ├── sub-212
+│   │   └── func
+│   ├── sub-213
+│   │   └── func
+│   ├── sub-214
+│   │   └── func
+│   ├── sub-215
+│   │   └── func
+│   ├── sub-216
+│   │   └── func
+│   ├── sub-217
+│   │   └── func
+│   ├── sub-218
+│   │   └── func
+│   ├── sub-219
+│   │   └── func
+│   ├── sub-220
+│   │   └── func
+│   ├── sub-221
+│   │   └── func
+│   ├── sub-222
+│   │   └── func
+│   ├── sub-223
+│   │   └── func
+│   ├── sub-224
+│   │   └── func
+│   ├── sub-225
+│   │   └── func
+│   ├── sub-226
+│   │   └── func
+│   ├── sub-227
+│   │   └── func
+│   ├── sub-228
+│   │   └── func
+│   ├── sub-229
+│   │   └── func
+│   ├── sub-230
+│   │   └── func
+│   ├── sub-231
+│   │   └── func
+│   ├── sub-232
+│   │   └── func
+│   ├── sub-233
+│   │   └── func
+│   ├── sub-234
+│   │   └── func
+│   ├── sub-235
+│   │   └── func
+│   ├── sub-236
+│   │   └── func
+│   ├── sub-237
+│   │   └── func
+│   ├── sub-238
+│   │   └── func
+│   ├── sub-239
+│   │   └── func
+│   ├── sub-240
+│   │   └── func
+│   ├── sub-241
+│   │   └── func
+│   ├── sub-242
+│   │   └── func
+│   ├── sub-243
+│   │   └── func
+│   ├── sub-244
+│   │   └── func
+│   ├── sub-245
+│   │   └── func
+│   ├── sub-246
+│   │   └── func
+│   ├── sub-247
+│   │   └── func
+│   ├── sub-248
+│   │   └── func
+│   ├── sub-249
+│   │   └── func
+│   ├── sub-250
+│   │   └── func
+│   ├── sub-251
+│   │   └── func
+│   ├── sub-252
+│   │   └── func
+│   ├── sub-253
+│   │   └── func
+│   ├── sub-254
+│   │   └── func
+│   ├── sub-255
+│   │   └── func
+│   ├── sub-256
+│   │   └── func
+│   ├── sub-257
+│   │   └── func
+│   ├── sub-258
+│   │   └── func
+│   ├── sub-259
+│   │   └── func
+│   ├── sub-260
+│   │   └── func
+│   ├── sub-261
+│   │   └── func
+│   ├── sub-262
+│   │   └── func
+│   ├── sub-263
+│   │   └── func
+│   ├── sub-264
+│   │   └── func
+│   ├── sub-265
+│   │   └── func
+│   ├── sub-266
+│   │   └── func
+│   ├── sub-267
+│   │   └── func
+│   ├── sub-268
+│   │   └── func
+│   ├── sub-269
+│   │   └── func
+│   ├── sub-270
+│   │   └── func
+│   ├── sub-271
+│   │   └── func
+│   ├── sub-272
+│   │   └── func
+│   ├── sub-273
+│   │   └── func
+│   ├── sub-274
+│   │   └── func
+│   ├── sub-275
+│   │   └── func
+│   ├── sub-276
+│   │   └── func
+│   ├── sub-277
+│   │   └── func
+│   ├── sub-278
+│   │   └── func
+│   ├── sub-279
+│   │   └── func
+│   ├── sub-280
+│   │   └── func
+│   ├── sub-281
+│   │   └── func
+│   ├── sub-282
+│   │   └── func
+│   ├── sub-283
+│   │   └── func
+│   ├── sub-284
+│   │   └── func
+│   ├── sub-285
+│   │   └── func
+│   ├── sub-286
+│   │   └── func
+│   ├── sub-287
+│   │   └── func
+│   ├── sub-288
+│   │   └── func
+│   ├── sub-289
+│   │   └── func
+│   ├── sub-290
+│   │   └── func
+│   ├── sub-291
+│   │   └── func
+│   ├── sub-292
+│   │   └── func
+│   ├── sub-293
+│   │   └── func
+│   ├── sub-294
+│   │   └── func
+│   ├── sub-295
+│   │   └── func
+│   ├── sub-296
+│   │   └── func
+│   ├── sub-297
+│   │   └── func
+│   ├── sub-298
+│   │   └── func
+│   ├── sub-299
+│   │   └── func
+│   ├── sub-300
+│   │   └── func
+│   ├── sub-301
+│   │   └── func
+│   ├── sub-302
+│   │   └── func
+│   ├── sub-303
+│   │   └── func
+│   ├── sub-304
+│   │   └── func
+│   ├── sub-305
+│   │   └── func
+│   ├── sub-306
+│   │   └── func
+│   ├── sub-307
+│   │   └── func
+│   ├── sub-308
+│   │   └── func
+│   ├── sub-309
+│   │   └── func
+│   ├── sub-310
+│   │   └── func
+│   ├── sub-311
+│   │   └── func
+│   ├── sub-312
+│   │   └── func
+│   ├── sub-313
+│   │   └── func
+│   ├── sub-314
+│   │   └── func
+│   ├── sub-315
+│   │   └── func
+│   ├── sub-316
+│   │   └── func
+│   ├── sub-317
+│   │   └── func
+│   ├── sub-318
+│   │   └── func
+│   ├── sub-319
+│   │   └── func
+│   ├── sub-320
+│   │   └── func
+│   ├── sub-321
+│   │   └── func
+│   ├── sub-322
+│   │   └── func
+│   ├── sub-323
+│   │   └── func
+│   ├── sub-324
+│   │   └── func
+│   ├── sub-325
+│   │   └── func
+│   ├── sub-326
+│   │   └── func
+│   ├── sub-327
+│   │   └── func
+│   ├── sub-328
+│   │   └── func
+│   ├── sub-329
+│   │   └── func
+│   ├── sub-330
+│   │   └── func
+│   ├── sub-331
+│   │   └── func
+│   ├── sub-332
+│   │   └── func
+│   ├── sub-333
+│   │   └── func
+│   ├── sub-334
+│   │   └── func
+│   ├── sub-335
+│   │   └── func
+│   ├── sub-336
+│   │   └── func
+│   ├── sub-337
+│   │   └── func
+│   ├── sub-338
+│   │   └── func
+│   ├── sub-339
+│   │   └── func
+│   ├── sub-340
+│   │   └── func
+│   ├── sub-341
+│   │   └── func
+│   ├── sub-342
+│   │   └── func
+│   ├── sub-343
+│   │   └── func
+│   ├── sub-344
+│   │   └── func
+│   ├── sub-345
+│   │   └── func
+│   └── tpl-fsaverage6
+│       ├── tpl-fsaverage6_hemi-L_desc-cortex_mask.gii
+│       └── tpl-fsaverage6_hemi-R_desc-cortex_mask.gii
+├── first_TRs
+│   ├── sub-001_task-pieman_run-1_events.tsv
+│   ├── sub-001_task-pieman_run-2_events.tsv
+│   ├── sub-001_task-tunnel_events.tsv
+│   ├── sub-002_task-pieman_run-1_events.tsv
+│   ├── sub-002_task-pieman_run-2_events.tsv
+│   ├── sub-003_task-pieman_run-1_events.tsv
+│   ├── sub-003_task-pieman_run-2_events.tsv
+│   ├── sub-004_task-pieman_run-1_events.tsv
+│   ├── sub-004_task-pieman_run-2_events.tsv
+│   ├── sub-004_task-tunnel_events.tsv
+│   ├── sub-005_task-pieman_run-1_events.tsv
+│   ├── sub-005_task-pieman_run-2_events.tsv
+│   ├── sub-005_task-tunnel_events.tsv
+│   ├── sub-006_task-pieman_run-1_events.tsv
+│   ├── sub-006_task-pieman_run-2_events.tsv
+│   ├── sub-007_task-pieman_events.tsv
+│   ├── sub-008_task-pieman_run-1_events.tsv
+│   ├── sub-008_task-pieman_run-2_events.tsv
+│   ├── sub-009_task-pieman_events.tsv
+│   ├── sub-010_task-pieman_run-1_events.tsv
+│   ├── sub-010_task-pieman_run-2_events.tsv
+│   ├── sub-011_task-pieman_run-1_events.tsv
+│   ├── sub-011_task-pieman_run-2_events.tsv
+│   ├── sub-012_task-pieman_run-1_events.tsv
+│   ├── sub-012_task-pieman_run-2_events.tsv
+│   ├── sub-013_task-pieman_run-1_events.tsv
+│   ├── sub-013_task-pieman_run-2_events.tsv
+│   ├── sub-013_task-tunnel_events.tsv
+│   ├── sub-014_task-pieman_run-1_events.tsv
+│   ├── sub-014_task-pieman_run-2_events.tsv
+│   ├── sub-015_task-pieman_run-1_events.tsv
+│   ├── sub-015_task-pieman_run-2_events.tsv
+│   ├── sub-016_task-notthefallintact_events.tsv
+│   ├── sub-016_task-notthefallshortscram_events.tsv
+│   ├── sub-016_task-pieman_run-1_events.tsv
+│   ├── sub-016_task-pieman_run-2_events.tsv
+│   ├── sub-016_task-slumlordreach_events.tsv
+│   ├── sub-017_task-pieman_events.tsv
+│   ├── sub-018_task-pieman_events.tsv
+│   ├── sub-019_task-pieman_events.tsv
+│   ├── sub-020_task-pieman_events.tsv
+│   ├── sub-021_task-pieman_events.tsv
+│   ├── sub-022_task-lucy_events.tsv
+│   ├── sub-022_task-pieman_events.tsv
+│   ├── sub-022_task-tunnel_events.tsv
+│   ├── sub-023_task-milkyway_events.tsv
+│   ├── sub-023_task-pieman_events.tsv
+│   ├── sub-023_task-prettymouth_events.tsv
+│   ├── sub-024_task-pieman_events.tsv
+│   ├── sub-025_task-pieman_events.tsv
+│   ├── sub-025_task-tunnel_events.tsv
+│   ├── sub-026_task-lucy_events.tsv
+│   ├── sub-026_task-pieman_events.tsv
+│   ├── sub-026_task-tunnel_events.tsv
+│   ├── sub-027_task-pieman_events.tsv
+│   ├── sub-028_task-pieman_events.tsv
+│   ├── sub-029_task-pieman_events.tsv
+│   ├── sub-030_task-milkyway_events.tsv
+│   ├── sub-030_task-pieman_events.tsv
+│   ├── sub-030_task-prettymouth_events.tsv
+│   ├── sub-031_task-pieman_events.tsv
+│   ├── sub-032_task-milkyway_events.tsv
+│   ├── sub-032_task-pieman_events.tsv
+│   ├── sub-032_task-prettymouth_events.tsv
+│   ├── sub-033_task-pieman_events.tsv
+│   ├── sub-034_task-milkyway_events.tsv
+│   ├── sub-034_task-notthefallintact_events.tsv
+│   ├── sub-034_task-notthefalllongscram_events.tsv
+│   ├── sub-034_task-pieman_events.tsv
+│   ├── sub-034_task-prettymouth_events.tsv
+│   ├── sub-035_task-pieman_events.tsv
+│   ├── sub-036_task-pieman_events.tsv
+│   ├── sub-037_task-pieman_events.tsv
+│   ├── sub-038_task-milkyway_events.tsv
+│   ├── sub-038_task-pieman_events.tsv
+│   ├── sub-038_task-prettymouth_events.tsv
+│   ├── sub-039_task-pieman_events.tsv
+│   ├── sub-040_task-pieman_events.tsv
+│   ├── sub-041_task-lucy_events.tsv
+│   ├── sub-041_task-pieman_events.tsv
+│   ├── sub-041_task-tunnel_events.tsv
+│   ├── sub-042_task-pieman_events.tsv
+│   ├── sub-043_task-pieman_events.tsv
+│   ├── sub-044_task-pieman_events.tsv
+│   ├── sub-045_task-pieman_events.tsv
+│   ├── sub-046_task-pieman_events.tsv
+│   ├── sub-047_task-pieman_events.tsv
+│   ├── sub-048_task-pieman_events.tsv
+│   ├── sub-049_task-pieman_events.tsv
+│   ├── sub-049_task-schema_run-1_events.tsv
+│   ├── sub-049_task-schema_run-2_events.tsv
+│   ├── sub-049_task-schema_run-3_events.tsv
+│   ├── sub-049_task-schema_run-4_events.tsv
+│   ├── sub-049_task-shapesphysical_events.tsv
+│   ├── sub-049_task-shapessocial_events.tsv
+│   ├── sub-050_task-pieman_events.tsv
+│   ├── sub-050_task-prettymouth_events.tsv
+│   ├── sub-051_task-pieman_events.tsv
+│   ├── sub-052_task-lucy_events.tsv
+│   ├── sub-052_task-milkyway_events.tsv
+│   ├── sub-052_task-pieman_events.tsv
+│   ├── sub-052_task-prettymouth_events.tsv
+│   ├── sub-052_task-tunnel_events.tsv
+│   ├── sub-053_task-lucy_events.tsv
+│   ├── sub-053_task-pieman_events.tsv
+│   ├── sub-053_task-tunnel_events.tsv
+│   ├── sub-054_task-pieman_events.tsv
+│   ├── sub-055_task-lucy_events.tsv
+│   ├── sub-055_task-pieman_events.tsv
+│   ├── sub-055_task-tunnel_events.tsv
+│   ├── sub-056_task-lucy_events.tsv
+│   ├── sub-056_task-pieman_events.tsv
+│   ├── sub-056_task-tunnel_events.tsv
+│   ├── sub-057_task-pieman_events.tsv
+│   ├── sub-057_task-tunnel_events.tsv
+│   ├── sub-058_task-lucy_events.tsv
+│   ├── sub-058_task-pieman_events.tsv
+│   ├── sub-058_task-shapesphysical_events.tsv
+│   ├── sub-058_task-shapessocial_events.tsv
+│   ├── sub-058_task-tunnel_events.tsv
+│   ├── sub-059_task-lucy_events.tsv
+│   ├── sub-059_task-pieman_events.tsv
+│   ├── sub-059_task-tunnel_events.tsv
+│   ├── sub-060_task-lucy_events.tsv
+│   ├── sub-060_task-pieman_events.tsv
+│   ├── sub-060_task-tunnel_events.tsv
+│   ├── sub-061_task-lucy_events.tsv
+│   ├── sub-061_task-pieman_events.tsv
+│   ├── sub-061_task-tunnel_events.tsv
+│   ├── sub-062_task-pieman_events.tsv
+│   ├── sub-062_task-tunnel_events.tsv
+│   ├── sub-063_task-pieman_events.tsv
+│   ├── sub-063_task-tunnel_events.tsv
+│   ├── sub-064_task-pieman_events.tsv
+│   ├── sub-064_task-tunnel_events.tsv
+│   ├── sub-065_task-lucy_events.tsv
+│   ├── sub-065_task-notthefallintact_events.tsv
+│   ├── sub-065_task-notthefallshortscram_events.tsv
+│   ├── sub-065_task-pieman_events.tsv
+│   ├── sub-065_task-prettymouth_events.tsv
+│   ├── sub-065_task-tunnel_events.tsv
+│   ├── sub-066_task-lucy_events.tsv
+│   ├── sub-066_task-notthefallintact_events.tsv
+│   ├── sub-066_task-notthefalllongscram_events.tsv
+│   ├── sub-066_task-pieman_events.tsv
+│   ├── sub-066_task-prettymouth_events.tsv
+│   ├── sub-066_task-tunnel_events.tsv
+│   ├── sub-067_task-pieman_events.tsv
+│   ├── sub-068_task-pieman_events.tsv
+│   ├── sub-069_task-lucy_events.tsv
+│   ├── sub-069_task-pieman_events.tsv
+│   ├── sub-069_task-tunnel_events.tsv
+│   ├── sub-070_task-pieman_events.tsv
+│   ├── sub-071_task-pieman_events.tsv
+│   ├── sub-072_task-pieman_events.tsv
+│   ├── sub-073_task-lucy_events.tsv
+│   ├── sub-073_task-pieman_events.tsv
+│   ├── sub-074_task-lucy_events.tsv
+│   ├── sub-074_task-pieman_events.tsv
+│   ├── sub-075_task-21styear_events.tsv
+│   ├── sub-075_task-merlin_events.tsv
+│   ├── sub-075_task-pieman_events.tsv
+│   ├── sub-075_task-schema_run-1_events.tsv
+│   ├── sub-075_task-schema_run-2_events.tsv
+│   ├── sub-075_task-schema_run-3_events.tsv
+│   ├── sub-075_task-schema_run-4_events.tsv
+│   ├── sub-075_task-sherlock_events.tsv
+│   ├── sub-076_task-pieman_events.tsv
+│   ├── sub-077_task-pieman_events.tsv
+│   ├── sub-078_task-pieman_events.tsv
+│   ├── sub-079_task-milkyway_events.tsv
+│   ├── sub-079_task-pieman_events.tsv
+│   ├── sub-079_task-prettymouth_events.tsv
+│   ├── sub-080_task-pieman_events.tsv
+│   ├── sub-081_task-milkyway_events.tsv
+│   ├── sub-081_task-pieman_events.tsv
+│   ├── sub-081_task-prettymouth_events.tsv
+│   ├── sub-082_task-pieman_events.tsv
+│   ├── sub-083_task-milkyway_events.tsv
+│   ├── sub-083_task-prettymouth_events.tsv
+│   ├── sub-084_task-notthefallintact_events.tsv
+│   ├── sub-084_task-notthefallshortscram_events.tsv
+│   ├── sub-084_task-prettymouth_events.tsv
+│   ├── sub-084_task-slumlordreach_events.tsv
+│   ├── sub-085_task-prettymouth_events.tsv
+│   ├── sub-086_task-milkyway_events.tsv
+│   ├── sub-086_task-prettymouth_events.tsv
+│   ├── sub-087_task-milkyway_events.tsv
+│   ├── sub-087_task-prettymouth_events.tsv
+│   ├── sub-088_task-milkyway_events.tsv
+│   ├── sub-088_task-prettymouth_events.tsv
+│   ├── sub-089_task-milkyway_events.tsv
+│   ├── sub-089_task-notthefallintact_events.tsv
+│   ├── sub-089_task-notthefallshortscram_events.tsv
+│   ├── sub-089_task-prettymouth_events.tsv
+│   ├── sub-089_task-schema_run-1_events.tsv
+│   ├── sub-089_task-schema_run-2_events.tsv
+│   ├── sub-089_task-schema_run-3_events.tsv
+│   ├── sub-089_task-schema_run-4_events.tsv
+│   ├── sub-090_task-milkyway_events.tsv
+│   ├── sub-090_task-prettymouth_events.tsv
+│   ├── sub-091_task-milkyway_events.tsv
+│   ├── sub-091_task-prettymouth_events.tsv
+│   ├── sub-092_task-prettymouth_events.tsv
+│   ├── sub-093_task-milkyway_events.tsv
+│   ├── sub-093_task-prettymouth_events.tsv
+│   ├── sub-094_task-prettymouth_events.tsv
+│   ├── sub-095_task-milkyway_events.tsv
+│   ├── sub-095_task-notthefallintact_events.tsv
+│   ├── sub-095_task-notthefallshortscram_events.tsv
+│   ├── sub-095_task-prettymouth_events.tsv
+│   ├── sub-095_task-shapesphysical_events.tsv
+│   ├── sub-095_task-shapessocial_events.tsv
+│   ├── sub-096_task-milkyway_events.tsv
+│   ├── sub-096_task-notthefallintact_events.tsv
+│   ├── sub-096_task-notthefallshortscram_events.tsv
+│   ├── sub-096_task-prettymouth_events.tsv
+│   ├── sub-097_task-milkyway_events.tsv
+│   ├── sub-097_task-prettymouth_events.tsv
+│   ├── sub-098_task-milkyway_events.tsv
+│   ├── sub-098_task-prettymouth_events.tsv
+│   ├── sub-099_task-milkyway_events.tsv
+│   ├── sub-099_task-prettymouth_events.tsv
+│   ├── sub-100_task-milkyway_events.tsv
+│   ├── sub-100_task-prettymouth_events.tsv
+│   ├── sub-101_task-milkyway_events.tsv
+│   ├── sub-101_task-prettymouth_events.tsv
+│   ├── sub-102_task-milkyway_events.tsv
+│   ├── sub-102_task-prettymouth_events.tsv
+│   ├── sub-103_task-milkyway_events.tsv
+│   ├── sub-103_task-prettymouth_events.tsv
+│   ├── sub-104_task-milkyway_events.tsv
+│   ├── sub-104_task-prettymouth_events.tsv
+│   ├── sub-105_task-milkyway_events.tsv
+│   ├── sub-105_task-prettymouth_events.tsv
+│   ├── sub-106_task-milkyway_events.tsv
+│   ├── sub-106_task-notthefallintact_events.tsv
+│   ├── sub-106_task-notthefalllongscram_events.tsv
+│   ├── sub-106_task-prettymouth_events.tsv
+│   ├── sub-106_task-slumlordreach_events.tsv
+│   ├── sub-107_task-milkyway_events.tsv
+│   ├── sub-107_task-prettymouth_events.tsv
+│   ├── sub-108_task-milkyway_events.tsv
+│   ├── sub-108_task-prettymouth_events.tsv
+│   ├── sub-109_task-milkyway_events.tsv
+│   ├── sub-109_task-prettymouth_events.tsv
+│   ├── sub-109_task-schema_run-1_events.tsv
+│   ├── sub-109_task-schema_run-2_events.tsv
+│   ├── sub-109_task-schema_run-3_events.tsv
+│   ├── sub-109_task-schema_run-4_events.tsv
+│   ├── sub-110_task-milkyway_events.tsv
+│   ├── sub-110_task-prettymouth_events.tsv
+│   ├── sub-111_task-milkyway_events.tsv
+│   ├── sub-111_task-notthefallintact_events.tsv
+│   ├── sub-111_task-notthefalllongscram_events.tsv
+│   ├── sub-111_task-prettymouth_events.tsv
+│   ├── sub-111_task-slumlordreach_events.tsv
+│   ├── sub-112_task-milkyway_events.tsv
+│   ├── sub-113_task-milkyway_events.tsv
+│   ├── sub-114_task-milkyway_events.tsv
+│   ├── sub-115_task-milkyway_events.tsv
+│   ├── sub-115_task-shapesphysical_events.tsv
+│   ├── sub-115_task-shapessocial_events.tsv
+│   ├── sub-116_task-milkyway_events.tsv
+│   ├── sub-117_task-milkyway_events.tsv
+│   ├── sub-118_task-milkyway_events.tsv
+│   ├── sub-119_task-milkyway_events.tsv
+│   ├── sub-120_task-milkyway_events.tsv
+│   ├── sub-121_task-milkyway_events.tsv
+│   ├── sub-122_task-milkyway_events.tsv
+│   ├── sub-123_task-milkyway_events.tsv
+│   ├── sub-124_task-milkyway_events.tsv
+│   ├── sub-125_task-milkyway_events.tsv
+│   ├── sub-126_task-milkyway_events.tsv
+│   ├── sub-127_task-black_events.tsv
+│   ├── sub-127_task-bronx_events.tsv
+│   ├── sub-127_task-forgot_events.tsv
+│   ├── sub-127_task-milkyway_events.tsv
+│   ├── sub-127_task-piemanpni_events.tsv
+│   ├── sub-127_task-shapesphysical_events.tsv
+│   ├── sub-127_task-shapessocial_events.tsv
+│   ├── sub-128_task-milkyway_events.tsv
+│   ├── sub-129_task-milkyway_events.tsv
+│   ├── sub-130_task-milkyway_events.tsv
+│   ├── sub-131_task-21styear_events.tsv
+│   ├── sub-131_task-milkyway_events.tsv
+│   ├── sub-132_task-notthefallintact_events.tsv
+│   ├── sub-132_task-notthefalllongscram_events.tsv
+│   ├── sub-132_task-schema_run-1_events.tsv
+│   ├── sub-132_task-schema_run-2_events.tsv
+│   ├── sub-132_task-schema_run-3_events.tsv
+│   ├── sub-132_task-schema_run-4_events.tsv
+│   ├── sub-132_task-slumlordreach_events.tsv
+│   ├── sub-133_task-notthefallintact_events.tsv
+│   ├── sub-133_task-notthefalllongscram_events.tsv
+│   ├── sub-133_task-slumlordreach_events.tsv
+│   ├── sub-134_task-notthefallintact_events.tsv
+│   ├── sub-134_task-notthefalllongscram_events.tsv
+│   ├── sub-134_task-slumlordreach_events.tsv
+│   ├── sub-135_task-notthefallintact_events.tsv
+│   ├── sub-135_task-notthefallshortscram_events.tsv
+│   ├── sub-135_task-slumlordreach_events.tsv
+│   ├── sub-136_task-notthefallintact_events.tsv
+│   ├── sub-136_task-notthefallshortscram_events.tsv
+│   ├── sub-136_task-slumlordreach_events.tsv
+│   ├── sub-137_task-notthefallintact_events.tsv
+│   ├── sub-137_task-notthefallshortscram_events.tsv
+│   ├── sub-137_task-slumlordreach_events.tsv
+│   ├── sub-138_task-slumlordreach_events.tsv
+│   ├── sub-139_task-notthefallintact_events.tsv
+│   ├── sub-139_task-notthefalllongscram_events.tsv
+│   ├── sub-139_task-slumlordreach_events.tsv
+│   ├── sub-140_task-notthefallintact_events.tsv
+│   ├── sub-140_task-notthefalllongscram_events.tsv
+│   ├── sub-140_task-slumlordreach_events.tsv
+│   ├── sub-141_task-notthefallintact_events.tsv
+│   ├── sub-141_task-notthefallshortscram_events.tsv
+│   ├── sub-141_task-slumlordreach_events.tsv
+│   ├── sub-142_task-notthefallintact_events.tsv
+│   ├── sub-142_task-notthefalllongscram_events.tsv
+│   ├── sub-142_task-slumlordreach_events.tsv
+│   ├── sub-143_task-notthefallintact_events.tsv
+│   ├── sub-143_task-notthefallshortscram_events.tsv
+│   ├── sub-143_task-slumlordreach_events.tsv
+│   ├── sub-144_task-notthefallintact_events.tsv
+│   ├── sub-144_task-notthefalllongscram_events.tsv
+│   ├── sub-144_task-slumlordreach_events.tsv
+│   ├── sub-145_task-notthefallintact_events.tsv
+│   ├── sub-145_task-slumlordreach_events.tsv
+│   ├── sub-146_task-merlin_events.tsv
+│   ├── sub-146_task-sherlock_events.tsv
+│   ├── sub-147_task-merlin_events.tsv
+│   ├── sub-147_task-sherlock_events.tsv
+│   ├── sub-148_task-merlin_events.tsv
+│   ├── sub-148_task-sherlock_events.tsv
+│   ├── sub-149_task-merlin_events.tsv
+│   ├── sub-149_task-sherlock_events.tsv
+│   ├── sub-150_task-merlin_events.tsv
+│   ├── sub-150_task-sherlock_events.tsv
+│   ├── sub-151_task-merlin_events.tsv
+│   ├── sub-151_task-sherlock_events.tsv
+│   ├── sub-152_task-merlin_events.tsv
+│   ├── sub-152_task-sherlock_events.tsv
+│   ├── sub-153_task-merlin_events.tsv
+│   ├── sub-153_task-sherlock_events.tsv
+│   ├── sub-154_task-merlin_events.tsv
+│   ├── sub-154_task-sherlock_events.tsv
+│   ├── sub-155_task-merlin_events.tsv
+│   ├── sub-155_task-sherlock_events.tsv
+│   ├── sub-156_task-merlin_events.tsv
+│   ├── sub-156_task-sherlock_events.tsv
+│   ├── sub-157_task-merlin_events.tsv
+│   ├── sub-157_task-sherlock_events.tsv
+│   ├── sub-158_task-merlin_events.tsv
+│   ├── sub-158_task-sherlock_events.tsv
+│   ├── sub-159_task-merlin_events.tsv
+│   ├── sub-159_task-sherlock_events.tsv
+│   ├── sub-160_task-merlin_events.tsv
+│   ├── sub-160_task-sherlock_events.tsv
+│   ├── sub-161_task-merlin_events.tsv
+│   ├── sub-161_task-sherlock_events.tsv
+│   ├── sub-162_task-merlin_events.tsv
+│   ├── sub-162_task-sherlock_events.tsv
+│   ├── sub-163_task-merlin_events.tsv
+│   ├── sub-163_task-sherlock_events.tsv
+│   ├── sub-164_task-merlin_events.tsv
+│   ├── sub-164_task-sherlock_events.tsv
+│   ├── sub-165_task-merlin_events.tsv
+│   ├── sub-165_task-sherlock_events.tsv
+│   ├── sub-166_task-merlin_events.tsv
+│   ├── sub-166_task-sherlock_events.tsv
+│   ├── sub-167_task-merlin_events.tsv
+│   ├── sub-167_task-sherlock_events.tsv
+│   ├── sub-168_task-merlin_events.tsv
+│   ├── sub-168_task-sherlock_events.tsv
+│   ├── sub-169_task-merlin_events.tsv
+│   ├── sub-169_task-sherlock_events.tsv
+│   ├── sub-170_task-merlin_events.tsv
+│   ├── sub-170_task-sherlock_events.tsv
+│   ├── sub-171_task-merlin_events.tsv
+│   ├── sub-171_task-schema_run-1_events.tsv
+│   ├── sub-171_task-schema_run-2_events.tsv
+│   ├── sub-171_task-schema_run-3_events.tsv
+│   ├── sub-171_task-schema_run-4_events.tsv
+│   ├── sub-171_task-sherlock_events.tsv
+│   ├── sub-172_task-merlin_events.tsv
+│   ├── sub-172_task-sherlock_events.tsv
+│   ├── sub-173_task-merlin_events.tsv
+│   ├── sub-173_task-sherlock_events.tsv
+│   ├── sub-174_task-merlin_events.tsv
+│   ├── sub-174_task-sherlock_events.tsv
+│   ├── sub-175_task-merlin_events.tsv
+│   ├── sub-175_task-sherlock_events.tsv
+│   ├── sub-176_task-merlin_events.tsv
+│   ├── sub-176_task-sherlock_events.tsv
+│   ├── sub-177_task-merlin_events.tsv
+│   ├── sub-177_task-sherlock_events.tsv
+│   ├── sub-178_task-merlin_events.tsv
+│   ├── sub-178_task-sherlock_events.tsv
+│   ├── sub-179_task-merlin_events.tsv
+│   ├── sub-179_task-sherlock_events.tsv
+│   ├── sub-180_task-merlin_events.tsv
+│   ├── sub-180_task-sherlock_events.tsv
+│   ├── sub-181_task-schema_run-1_events.tsv
+│   ├── sub-181_task-schema_run-2_events.tsv
+│   ├── sub-181_task-schema_run-3_events.tsv
+│   ├── sub-181_task-schema_run-4_events.tsv
+│   ├── sub-181_task-shapesphysical_events.tsv
+│   ├── sub-181_task-shapessocial_events.tsv
+│   ├── sub-182_task-schema_run-1_events.tsv
+│   ├── sub-182_task-schema_run-2_events.tsv
+│   ├── sub-182_task-schema_run-3_events.tsv
+│   ├── sub-182_task-schema_run-4_events.tsv
+│   ├── sub-183_task-schema_run-1_events.tsv
+│   ├── sub-183_task-schema_run-2_events.tsv
+│   ├── sub-183_task-schema_run-3_events.tsv
+│   ├── sub-183_task-schema_run-4_events.tsv
+│   ├── sub-184_task-schema_run-1_events.tsv
+│   ├── sub-184_task-schema_run-2_events.tsv
+│   ├── sub-184_task-schema_run-3_events.tsv
+│   ├── sub-184_task-schema_run-4_events.tsv
+│   ├── sub-185_task-schema_run-1_events.tsv
+│   ├── sub-185_task-schema_run-2_events.tsv
+│   ├── sub-185_task-schema_run-3_events.tsv
+│   ├── sub-185_task-schema_run-4_events.tsv
+│   ├── sub-186_task-schema_run-1_events.tsv
+│   ├── sub-186_task-schema_run-2_events.tsv
+│   ├── sub-186_task-schema_run-3_events.tsv
+│   ├── sub-186_task-schema_run-4_events.tsv
+│   ├── sub-186_task-shapesphysical_events.tsv
+│   ├── sub-186_task-shapessocial_events.tsv
+│   ├── sub-187_task-schema_run-1_events.tsv
+│   ├── sub-187_task-schema_run-2_events.tsv
+│   ├── sub-187_task-schema_run-3_events.tsv
+│   ├── sub-187_task-schema_run-4_events.tsv
+│   ├── sub-188_task-schema_run-1_events.tsv
+│   ├── sub-188_task-schema_run-2_events.tsv
+│   ├── sub-188_task-schema_run-3_events.tsv
+│   ├── sub-188_task-schema_run-4_events.tsv
+│   ├── sub-189_task-schema_run-1_events.tsv
+│   ├── sub-189_task-schema_run-2_events.tsv
+│   ├── sub-189_task-schema_run-3_events.tsv
+│   ├── sub-189_task-schema_run-4_events.tsv
+│   ├── sub-190_task-21styear_events.tsv
+│   ├── sub-190_task-schema_run-1_events.tsv
+│   ├── sub-190_task-schema_run-2_events.tsv
+│   ├── sub-190_task-schema_run-3_events.tsv
+│   ├── sub-190_task-schema_run-4_events.tsv
+│   ├── sub-190_task-shapesphysical_events.tsv
+│   ├── sub-190_task-shapessocial_events.tsv
+│   ├── sub-191_task-schema_run-1_events.tsv
+│   ├── sub-191_task-schema_run-2_events.tsv
+│   ├── sub-191_task-schema_run-3_events.tsv
+│   ├── sub-191_task-schema_run-4_events.tsv
+│   ├── sub-191_task-shapesphysical_events.tsv
+│   ├── sub-191_task-shapessocial_events.tsv
+│   ├── sub-192_task-schema_run-1_events.tsv
+│   ├── sub-192_task-schema_run-2_events.tsv
+│   ├── sub-192_task-schema_run-3_events.tsv
+│   ├── sub-192_task-schema_run-4_events.tsv
+│   ├── sub-193_task-schema_run-1_events.tsv
+│   ├── sub-193_task-schema_run-2_events.tsv
+│   ├── sub-193_task-schema_run-3_events.tsv
+│   ├── sub-193_task-schema_run-4_events.tsv
+│   ├── sub-194_task-schema_run-1_events.tsv
+│   ├── sub-194_task-schema_run-2_events.tsv
+│   ├── sub-194_task-schema_run-3_events.tsv
+│   ├── sub-194_task-schema_run-4_events.tsv
+│   ├── sub-195_task-notthefallintact_events.tsv
+│   ├── sub-195_task-notthefallshortscram_events.tsv
+│   ├── sub-195_task-schema_run-1_events.tsv
+│   ├── sub-195_task-schema_run-2_events.tsv
+│   ├── sub-195_task-schema_run-3_events.tsv
+│   ├── sub-195_task-schema_run-4_events.tsv
+│   ├── sub-196_task-schema_run-1_events.tsv
+│   ├── sub-196_task-schema_run-2_events.tsv
+│   ├── sub-196_task-schema_run-3_events.tsv
+│   ├── sub-196_task-schema_run-4_events.tsv
+│   ├── sub-197_task-schema_run-1_events.tsv
+│   ├── sub-197_task-schema_run-2_events.tsv
+│   ├── sub-197_task-schema_run-3_events.tsv
+│   ├── sub-197_task-schema_run-4_events.tsv
+│   ├── sub-198_task-schema_run-1_events.tsv
+│   ├── sub-198_task-schema_run-2_events.tsv
+│   ├── sub-198_task-schema_run-3_events.tsv
+│   ├── sub-198_task-schema_run-4_events.tsv
+│   ├── sub-199_task-notthefallintact_events.tsv
+│   ├── sub-199_task-notthefalllongscram_events.tsv
+│   ├── sub-199_task-schema_run-1_events.tsv
+│   ├── sub-199_task-schema_run-2_events.tsv
+│   ├── sub-199_task-schema_run-3_events.tsv
+│   ├── sub-199_task-schema_run-4_events.tsv
+│   ├── sub-200_task-schema_run-1_events.tsv
+│   ├── sub-200_task-schema_run-2_events.tsv
+│   ├── sub-200_task-schema_run-3_events.tsv
+│   ├── sub-200_task-schema_run-4_events.tsv
+│   ├── sub-200_task-shapesphysical_events.tsv
+│   ├── sub-200_task-shapessocial_events.tsv
+│   ├── sub-201_task-21styear_events.tsv
+│   ├── sub-201_task-schema_run-1_events.tsv
+│   ├── sub-201_task-schema_run-2_events.tsv
+│   ├── sub-201_task-schema_run-3_events.tsv
+│   ├── sub-201_task-schema_run-4_events.tsv
+│   ├── sub-201_task-shapesphysical_events.tsv
+│   ├── sub-201_task-shapessocial_events.tsv
+│   ├── sub-202_task-schema_run-1_events.tsv
+│   ├── sub-202_task-schema_run-2_events.tsv
+│   ├── sub-202_task-schema_run-3_events.tsv
+│   ├── sub-202_task-schema_run-4_events.tsv
+│   ├── sub-203_task-schema_run-1_events.tsv
+│   ├── sub-203_task-schema_run-2_events.tsv
+│   ├── sub-203_task-schema_run-3_events.tsv
+│   ├── sub-203_task-schema_run-4_events.tsv
+│   ├── sub-204_task-schema_run-1_events.tsv
+│   ├── sub-204_task-schema_run-2_events.tsv
+│   ├── sub-204_task-schema_run-3_events.tsv
+│   ├── sub-204_task-schema_run-4_events.tsv
+│   ├── sub-205_task-schema_run-1_events.tsv
+│   ├── sub-205_task-schema_run-2_events.tsv
+│   ├── sub-205_task-schema_run-3_events.tsv
+│   ├── sub-205_task-schema_run-4_events.tsv
+│   ├── sub-206_task-shapesphysical_events.tsv
+│   ├── sub-206_task-shapessocial_events.tsv
+│   ├── sub-207_task-shapesphysical_events.tsv
+│   ├── sub-207_task-shapessocial_events.tsv
+│   ├── sub-208_task-shapesphysical_events.tsv
+│   ├── sub-208_task-shapessocial_events.tsv
+│   ├── sub-209_task-shapesphysical_events.tsv
+│   ├── sub-209_task-shapessocial_events.tsv
+│   ├── sub-210_task-shapesphysical_events.tsv
+│   ├── sub-210_task-shapessocial_events.tsv
+│   ├── sub-211_task-shapesphysical_events.tsv
+│   ├── sub-211_task-shapessocial_events.tsv
+│   ├── sub-212_task-shapesphysical_events.tsv
+│   ├── sub-212_task-shapessocial_events.tsv
+│   ├── sub-213_task-shapesphysical_events.tsv
+│   ├── sub-213_task-shapessocial_events.tsv
+│   ├── sub-214_task-shapesphysical_events.tsv
+│   ├── sub-214_task-shapessocial_events.tsv
+│   ├── sub-215_task-shapesphysical_events.tsv
+│   ├── sub-215_task-shapessocial_events.tsv
+│   ├── sub-216_task-shapesphysical_events.tsv
+│   ├── sub-216_task-shapessocial_events.tsv
+│   ├── sub-217_task-shapesphysical_events.tsv
+│   ├── sub-217_task-shapessocial_events.tsv
+│   ├── sub-218_task-shapesphysical_events.tsv
+│   ├── sub-218_task-shapessocial_events.tsv
+│   ├── sub-219_task-shapesphysical_events.tsv
+│   ├── sub-219_task-shapessocial_events.tsv
+│   ├── sub-220_task-shapesphysical_events.tsv
+│   ├── sub-220_task-shapessocial_events.tsv
+│   ├── sub-221_task-shapesphysical_events.tsv
+│   ├── sub-221_task-shapessocial_events.tsv
+│   ├── sub-222_task-shapesphysical_events.tsv
+│   ├── sub-222_task-shapessocial_events.tsv
+│   ├── sub-223_task-shapesphysical_events.tsv
+│   ├── sub-223_task-shapessocial_events.tsv
+│   ├── sub-224_task-shapesphysical_events.tsv
+│   ├── sub-224_task-shapessocial_events.tsv
+│   ├── sub-225_task-shapesphysical_events.tsv
+│   ├── sub-225_task-shapessocial_events.tsv
+│   ├── sub-226_task-shapesphysical_events.tsv
+│   ├── sub-226_task-shapessocial_events.tsv
+│   ├── sub-227_task-shapesphysical_events.tsv
+│   ├── sub-227_task-shapessocial_events.tsv
+│   ├── sub-228_task-shapesphysical_events.tsv
+│   ├── sub-228_task-shapessocial_events.tsv
+│   ├── sub-229_task-shapesphysical_events.tsv
+│   ├── sub-229_task-shapessocial_events.tsv
+│   ├── sub-230_task-shapesphysical_events.tsv
+│   ├── sub-230_task-shapessocial_events.tsv
+│   ├── sub-231_task-shapesphysical_events.tsv
+│   ├── sub-231_task-shapessocial_events.tsv
+│   ├── sub-232_task-shapesphysical_events.tsv
+│   ├── sub-232_task-shapessocial_events.tsv
+│   ├── sub-233_task-shapesphysical_events.tsv
+│   ├── sub-233_task-shapessocial_events.tsv
+│   ├── sub-234_task-shapesphysical_events.tsv
+│   ├── sub-234_task-shapessocial_events.tsv
+│   ├── sub-235_task-21styear_events.tsv
+│   ├── sub-235_task-shapesphysical_events.tsv
+│   ├── sub-235_task-shapessocial_events.tsv
+│   ├── sub-236_task-shapesphysical_events.tsv
+│   ├── sub-236_task-shapessocial_events.tsv
+│   ├── sub-237_task-shapesphysical_events.tsv
+│   ├── sub-237_task-shapessocial_events.tsv
+│   ├── sub-238_task-shapesphysical_events.tsv
+│   ├── sub-238_task-shapessocial_events.tsv
+│   ├── sub-239_task-shapesphysical_events.tsv
+│   ├── sub-239_task-shapessocial_events.tsv
+│   ├── sub-240_task-shapesphysical_events.tsv
+│   ├── sub-240_task-shapessocial_events.tsv
+│   ├── sub-241_task-shapesphysical_events.tsv
+│   ├── sub-241_task-shapessocial_events.tsv
+│   ├── sub-242_task-shapesphysical_events.tsv
+│   ├── sub-242_task-shapessocial_events.tsv
+│   ├── sub-243_task-shapesphysical_events.tsv
+│   ├── sub-243_task-shapessocial_events.tsv
+│   ├── sub-244_task-21styear_events.tsv
+│   ├── sub-244_task-shapesphysical_events.tsv
+│   ├── sub-244_task-shapessocial_events.tsv
+│   ├── sub-245_task-shapesphysical_events.tsv
+│   ├── sub-245_task-shapessocial_events.tsv
+│   ├── sub-246_task-shapesphysical_events.tsv
+│   ├── sub-246_task-shapessocial_events.tsv
+│   ├── sub-247_task-shapesphysical_events.tsv
+│   ├── sub-247_task-shapessocial_events.tsv
+│   ├── sub-248_task-shapesphysical_events.tsv
+│   ├── sub-248_task-shapessocial_events.tsv
+│   ├── sub-249_task-21styear_events.tsv
+│   ├── sub-249_task-shapesphysical_events.tsv
+│   ├── sub-249_task-shapessocial_events.tsv
+│   ├── sub-250_task-shapesphysical_events.tsv
+│   ├── sub-250_task-shapessocial_events.tsv
+│   ├── sub-251_task-shapesphysical_events.tsv
+│   ├── sub-251_task-shapessocial_events.tsv
+│   ├── sub-252_task-shapesphysical_events.tsv
+│   ├── sub-252_task-shapessocial_events.tsv
+│   ├── sub-253_task-shapesphysical_events.tsv
+│   ├── sub-253_task-shapessocial_events.tsv
+│   ├── sub-254_task-21styear_events.tsv
+│   ├── sub-255_task-21styear_events.tsv
+│   ├── sub-256_task-21styear_events.tsv
+│   ├── sub-257_task-21styear_events.tsv
+│   ├── sub-258_task-21styear_events.tsv
+│   ├── sub-259_task-21styear_events.tsv
+│   ├── sub-260_task-21styear_events.tsv
+│   ├── sub-261_task-21styear_events.tsv
+│   ├── sub-262_task-21styear_events.tsv
+│   ├── sub-263_task-21styear_events.tsv
+│   ├── sub-264_task-21styear_events.tsv
+│   ├── sub-265_task-21styear_events.tsv
+│   ├── sub-265_task-black_events.tsv
+│   ├── sub-265_task-bronx_events.tsv
+│   ├── sub-265_task-forgot_events.tsv
+│   ├── sub-265_task-piemanpni_events.tsv
+│   ├── sub-266_task-21styear_events.tsv
+│   ├── sub-267_task-21styear_events.tsv
+│   ├── sub-267_task-black_events.tsv
+│   ├── sub-267_task-bronx_events.tsv
+│   ├── sub-267_task-forgot_events.tsv
+│   ├── sub-267_task-piemanpni_events.tsv
+│   ├── sub-268_task-21styear_events.tsv
+│   ├── sub-268_task-notthefallintact_events.tsv
+│   ├── sub-268_task-notthefalllongscram_events.tsv
+│   ├── sub-269_task-21styear_events.tsv
+│   ├── sub-270_task-21styear_events.tsv
+│   ├── sub-271_task-21styear_events.tsv
+│   ├── sub-272_task-black_events.tsv
+│   ├── sub-272_task-bronx_events.tsv
+│   ├── sub-272_task-forgot_events.tsv
+│   ├── sub-272_task-piemanpni_events.tsv
+│   ├── sub-273_task-black_events.tsv
+│   ├── sub-273_task-bronx_events.tsv
+│   ├── sub-273_task-forgot_events.tsv
+│   ├── sub-273_task-piemanpni_events.tsv
+│   ├── sub-274_task-black_events.tsv
+│   ├── sub-274_task-bronx_events.tsv
+│   ├── sub-274_task-forgot_events.tsv
+│   ├── sub-274_task-piemanpni_events.tsv
+│   ├── sub-275_task-black_events.tsv
+│   ├── sub-275_task-bronx_events.tsv
+│   ├── sub-275_task-forgot_events.tsv
+│   ├── sub-275_task-piemanpni_events.tsv
+│   ├── sub-276_task-black_events.tsv
+│   ├── sub-276_task-bronx_events.tsv
+│   ├── sub-276_task-forgot_events.tsv
+│   ├── sub-276_task-piemanpni_events.tsv
+│   ├── sub-277_task-black_events.tsv
+│   ├── sub-277_task-bronx_events.tsv
+│   ├── sub-277_task-forgot_events.tsv
+│   ├── sub-277_task-piemanpni_events.tsv
+│   ├── sub-278_task-bronx_events.tsv
+│   ├── sub-278_task-piemanpni_events.tsv
+│   ├── sub-279_task-black_events.tsv
+│   ├── sub-279_task-bronx_events.tsv
+│   ├── sub-279_task-forgot_events.tsv
+│   ├── sub-279_task-piemanpni_events.tsv
+│   ├── sub-280_task-black_events.tsv
+│   ├── sub-280_task-bronx_events.tsv
+│   ├── sub-280_task-forgot_events.tsv
+│   ├── sub-281_task-black_events.tsv
+│   ├── sub-281_task-bronx_events.tsv
+│   ├── sub-281_task-forgot_events.tsv
+│   ├── sub-281_task-piemanpni_events.tsv
+│   ├── sub-282_task-black_events.tsv
+│   ├── sub-282_task-bronx_events.tsv
+│   ├── sub-282_task-forgot_events.tsv
+│   ├── sub-282_task-piemanpni_events.tsv
+│   ├── sub-283_task-black_events.tsv
+│   ├── sub-283_task-bronx_events.tsv
+│   ├── sub-283_task-forgot_events.tsv
+│   ├── sub-283_task-piemanpni_events.tsv
+│   ├── sub-284_task-black_events.tsv
+│   ├── sub-284_task-bronx_events.tsv
+│   ├── sub-284_task-forgot_events.tsv
+│   ├── sub-284_task-piemanpni_events.tsv
+│   ├── sub-285_task-black_events.tsv
+│   ├── sub-285_task-bronx_events.tsv
+│   ├── sub-285_task-forgot_events.tsv
+│   ├── sub-285_task-piemanpni_events.tsv
+│   ├── sub-286_task-black_events.tsv
+│   ├── sub-286_task-bronx_events.tsv
+│   ├── sub-286_task-forgot_events.tsv
+│   ├── sub-286_task-piemanpni_events.tsv
+│   ├── sub-287_task-black_events.tsv
+│   ├── sub-287_task-bronx_events.tsv
+│   ├── sub-287_task-forgot_events.tsv
+│   ├── sub-287_task-piemanpni_events.tsv
+│   ├── sub-288_task-black_events.tsv
+│   ├── sub-288_task-bronx_events.tsv
+│   ├── sub-288_task-forgot_events.tsv
+│   ├── sub-288_task-piemanpni_events.tsv
+│   ├── sub-289_task-black_events.tsv
+│   ├── sub-289_task-bronx_events.tsv
+│   ├── sub-289_task-forgot_events.tsv
+│   ├── sub-289_task-piemanpni_events.tsv
+│   ├── sub-290_task-black_events.tsv
+│   ├── sub-290_task-bronx_events.tsv
+│   ├── sub-290_task-forgot_events.tsv
+│   ├── sub-290_task-piemanpni_events.tsv
+│   ├── sub-291_task-black_events.tsv
+│   ├── sub-291_task-bronx_events.tsv
+│   ├── sub-291_task-forgot_events.tsv
+│   ├── sub-291_task-piemanpni_events.tsv
+│   ├── sub-292_task-black_events.tsv
+│   ├── sub-292_task-bronx_events.tsv
+│   ├── sub-292_task-forgot_events.tsv
+│   ├── sub-292_task-piemanpni_events.tsv
+│   ├── sub-293_task-black_events.tsv
+│   ├── sub-293_task-bronx_events.tsv
+│   ├── sub-293_task-forgot_events.tsv
+│   ├── sub-293_task-piemanpni_events.tsv
+│   ├── sub-294_task-black_events.tsv
+│   ├── sub-294_task-bronx_events.tsv
+│   ├── sub-294_task-forgot_events.tsv
+│   ├── sub-294_task-piemanpni_events.tsv
+│   ├── sub-295_task-black_events.tsv
+│   ├── sub-295_task-bronx_events.tsv
+│   ├── sub-295_task-forgot_events.tsv
+│   ├── sub-295_task-piemanpni_events.tsv
+│   ├── sub-296_task-black_events.tsv
+│   ├── sub-296_task-bronx_events.tsv
+│   ├── sub-296_task-forgot_events.tsv
+│   ├── sub-296_task-piemanpni_events.tsv
+│   ├── sub-297_task-black_events.tsv
+│   ├── sub-297_task-bronx_events.tsv
+│   ├── sub-297_task-forgot_events.tsv
+│   ├── sub-297_task-piemanpni_events.tsv
+│   ├── sub-298_task-black_events.tsv
+│   ├── sub-298_task-bronx_events.tsv
+│   ├── sub-298_task-forgot_events.tsv
+│   ├── sub-298_task-piemanpni_events.tsv
+│   ├── sub-299_task-black_events.tsv
+│   ├── sub-299_task-bronx_events.tsv
+│   ├── sub-299_task-forgot_events.tsv
+│   ├── sub-299_task-piemanpni_events.tsv
+│   ├── sub-300_task-black_events.tsv
+│   ├── sub-300_task-bronx_events.tsv
+│   ├── sub-300_task-forgot_events.tsv
+│   ├── sub-300_task-piemanpni_events.tsv
+│   ├── sub-301_task-black_events.tsv
+│   ├── sub-301_task-bronx_events.tsv
+│   ├── sub-301_task-forgot_events.tsv
+│   ├── sub-301_task-piemanpni_events.tsv
+│   ├── sub-302_task-black_events.tsv
+│   ├── sub-302_task-bronx_events.tsv
+│   ├── sub-302_task-forgot_events.tsv
+│   ├── sub-302_task-piemanpni_events.tsv
+│   ├── sub-303_task-black_events.tsv
+│   ├── sub-303_task-bronx_events.tsv
+│   ├── sub-303_task-forgot_events.tsv
+│   ├── sub-303_task-piemanpni_events.tsv
+│   ├── sub-304_task-black_events.tsv
+│   ├── sub-304_task-bronx_events.tsv
+│   ├── sub-304_task-forgot_events.tsv
+│   ├── sub-304_task-piemanpni_events.tsv
+│   ├── sub-305_task-black_events.tsv
+│   ├── sub-305_task-bronx_events.tsv
+│   ├── sub-305_task-forgot_events.tsv
+│   ├── sub-305_task-piemanpni_events.tsv
+│   ├── sub-306_task-black_events.tsv
+│   ├── sub-306_task-bronx_events.tsv
+│   ├── sub-306_task-forgot_events.tsv
+│   ├── sub-306_task-piemanpni_events.tsv
+│   ├── sub-307_task-black_events.tsv
+│   ├── sub-307_task-bronx_events.tsv
+│   ├── sub-307_task-forgot_events.tsv
+│   ├── sub-307_task-piemanpni_events.tsv
+│   ├── sub-308_task-black_events.tsv
+│   ├── sub-308_task-bronx_events.tsv
+│   ├── sub-308_task-forgot_events.tsv
+│   ├── sub-308_task-piemanpni_events.tsv
+│   ├── sub-309_task-black_events.tsv
+│   ├── sub-309_task-bronx_events.tsv
+│   ├── sub-309_task-forgot_events.tsv
+│   ├── sub-309_task-piemanpni_events.tsv
+│   ├── sub-310_task-black_events.tsv
+│   ├── sub-310_task-bronx_events.tsv
+│   ├── sub-310_task-forgot_events.tsv
+│   ├── sub-310_task-piemanpni_events.tsv
+│   ├── sub-311_task-black_events.tsv
+│   ├── sub-311_task-bronx_events.tsv
+│   ├── sub-311_task-forgot_events.tsv
+│   ├── sub-311_task-piemanpni_events.tsv
+│   ├── sub-312_task-black_events.tsv
+│   ├── sub-312_task-bronx_events.tsv
+│   ├── sub-312_task-forgot_events.tsv
+│   ├── sub-312_task-piemanpni_events.tsv
+│   ├── sub-313_task-black_events.tsv
+│   ├── sub-313_task-bronx_events.tsv
+│   ├── sub-313_task-forgot_events.tsv
+│   ├── sub-313_task-piemanpni_events.tsv
+│   ├── sub-314_task-black_events.tsv
+│   ├── sub-314_task-bronx_events.tsv
+│   ├── sub-314_task-forgot_events.tsv
+│   ├── sub-314_task-piemanpni_events.tsv
+│   ├── sub-315_task-black_events.tsv
+│   ├── sub-315_task-bronx_events.tsv
+│   ├── sub-315_task-forgot_events.tsv
+│   ├── sub-315_task-piemanpni_events.tsv
+│   ├── sub-316_task-notthefallintact_events.tsv
+│   ├── sub-317_task-notthefallintact_events.tsv
+│   ├── sub-318_task-notthefallintact_events.tsv
+│   ├── sub-319_task-notthefallintact_events.tsv
+│   ├── sub-320_task-notthefallintact_events.tsv
+│   ├── sub-321_task-notthefallintact_events.tsv
+│   ├── sub-322_task-notthefallintact_events.tsv
+│   ├── sub-323_task-notthefallintact_events.tsv
+│   ├── sub-324_task-notthefallintact_events.tsv
+│   ├── sub-324_task-notthefallshortscram_events.tsv
+│   ├── sub-325_task-notthefallintact_events.tsv
+│   ├── sub-325_task-notthefallshortscram_events.tsv
+│   ├── sub-326_task-notthefallintact_events.tsv
+│   ├── sub-326_task-notthefalllongscram_events.tsv
+│   ├── sub-327_task-notthefallintact_events.tsv
+│   ├── sub-327_task-notthefalllongscram_events.tsv
+│   ├── sub-328_task-notthefallintact_events.tsv
+│   ├── sub-328_task-notthefalllongscram_events.tsv
+│   ├── sub-329_task-notthefallintact_events.tsv
+│   ├── sub-329_task-notthefallshortscram_events.tsv
+│   ├── sub-330_task-notthefallintact_events.tsv
+│   ├── sub-330_task-notthefalllongscram_events.tsv
+│   ├── sub-331_task-notthefallintact_events.tsv
+│   ├── sub-331_task-notthefalllongscram_events.tsv
+│   ├── sub-332_task-notthefallintact_events.tsv
+│   ├── sub-332_task-notthefallshortscram_events.tsv
+│   ├── sub-333_task-notthefallintact_events.tsv
+│   ├── sub-333_task-notthefallshortscram_events.tsv
+│   ├── sub-334_task-notthefallintact_events.tsv
+│   ├── sub-334_task-notthefalllongscram_events.tsv
+│   ├── sub-335_task-notthefallintact_events.tsv
+│   ├── sub-335_task-notthefalllongscram_events.tsv
+│   ├── sub-336_task-notthefallintact_events.tsv
+│   ├── sub-336_task-notthefallshortscram_events.tsv
+│   ├── sub-337_task-notthefallintact_events.tsv
+│   ├── sub-337_task-notthefalllongscram_events.tsv
+│   ├── sub-338_task-notthefallintact_events.tsv
+│   ├── sub-338_task-notthefallshortscram_events.tsv
+│   ├── sub-339_task-notthefallintact_events.tsv
+│   ├── sub-339_task-notthefallshortscram_events.tsv
+│   ├── sub-340_task-notthefallintact_events.tsv
+│   ├── sub-340_task-notthefalllongscram_events.tsv
+│   ├── sub-341_task-notthefallintact_events.tsv
+│   ├── sub-341_task-notthefalllongscram_events.tsv
+│   ├── sub-342_task-notthefallintact_events.tsv
+│   ├── sub-342_task-notthefallshortscram_events.tsv
+│   ├── sub-343_task-notthefallintact_events.tsv
+│   ├── sub-343_task-notthefallshortscram_events.tsv
+│   ├── sub-344_task-notthefallintact_events.tsv
+│   ├── sub-344_task-notthefalllongscram_events.tsv
+│   ├── sub-345_task-notthefallintact_events.tsv
+│   └── sub-345_task-notthefallshortscram_events.tsv
+├── participants.tsv
+├── subjects_general
+├── tunnel
+│   ├── align.csv
+│   ├── align.json
+│   ├── a.wav
+│   ├── index.html
+│   └── transcript.txt
+└── w2b_data_tree.txt
+
+695 directories, 1184 files
