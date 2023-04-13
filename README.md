@@ -20,4 +20,5 @@ adding a prediction of the text continuation after the original text before crea
 Our findings revealed that both methods partially preserved the correlations observed in the baseline approach. However, despite these efforts, none of the methods resulted in a significant improvement
 in the correlation to neural activity compared to the baseline. Our results highlight the challenges of
 predicting brain activity using language model embeddings and the limitations of incorporating cognitive tactics into the input to enhance predictive accuracy.
-![baseline](https://user-images.githubusercontent.com/81311717/231745629-bf08bcff-46ce-443b-9a35-cc7a7144c3d1.png)
+
+<img src="[https://your-image-url.type](https://user-images.githubusercontent.com/81311717/231745629-bf08bcff-46ce-443b-9a35-cc7a7144c3d1.png)" width="100" height="100">
